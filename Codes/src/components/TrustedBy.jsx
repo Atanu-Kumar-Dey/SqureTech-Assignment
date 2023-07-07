@@ -9,7 +9,7 @@ const TrustedBy = () => {
     ]
   return (
     <div className='w-full my-20 '>
-      <div className="flex justify-center items-center font-semibold text-[24px] uppercase">Trusted By</div>
+      <div className="flex justify-center items-center font-semibold  text-[#cccccc]  text-[24px] uppercase">Trusted By</div>
       <div className='my-10 flex w-[60%] mx-auto justify-center items-center space-x-6'>
         {
           img.map((url,index)=>(

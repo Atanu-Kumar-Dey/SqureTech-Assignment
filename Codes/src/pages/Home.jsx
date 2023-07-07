@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "../components/Carousel";
 import TrustedBy from "../components/TrustedBy";
 import About from "../components/About";
+import Services from "../components/Services";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <div className="">
         <TrustedBy/>
         <About/>
+        <Services/>
       </div>
     </div>
   );

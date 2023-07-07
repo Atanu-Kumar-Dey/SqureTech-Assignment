@@ -1,15 +1,16 @@
-import React, { useEffect } from "react";
+import React, { useState,useEffect } from "react";
 
 const NavBar = () => {
+  const [scroll, setScroll] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       // Define the threshold value for scrolling
-      const scrollThreshold = 10; // Adjust this value as needed
+      const scrollThreshold = 100; // Adjust this value as needed
 
       // Check if the scroll position is greater than the threshold
       if (window.scrollY > scrollThreshold) {
         // Webpage has been scrolled a little bit
-        console.log('Webpage has been scrolled.');
+        setScroll(true);
         // Perform any actions or trigger events as needed
       }
     };
@@ -24,7 +25,7 @@ const NavBar = () => {
   }, []);
   const navElement = ["Service", "Careers", "Contact", "About Us", "I"];
   return (
-    <div className="fixed z-50 w-full">
+    <div className={`fixed z-50 w-full ${scroll&&'shadow-xl bg-slate-800'} `}>
       <div className="absolute inset-0"></div>
       <div className="relative" id="relative">
         <header>
