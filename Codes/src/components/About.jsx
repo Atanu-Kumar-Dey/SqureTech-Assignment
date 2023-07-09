@@ -8,12 +8,13 @@ const About = () => {
         <span className='uppercase text-gray-500'>About</span>
         <span className='text-6xl'>Lorem ipsum dolor sit amet quo itaque.</span>
         <span className='text-sm text-gray-600'>Lorem ipsum dolor sit amet. Quo itaque galisum vel molestias expedita ut accusantium omnis qui expedita vitae aut quibusdam Lorem ipsum dolor sit amet. Quo itaque galisum vel molestias expedita</span>
-        <div className='bg-[#6090d8] font-normal rounded-full text-white max-w-fit px-4 py-2 max-h-fit'>Read More</div>
-      </div> 
+        <div className="bg-[#6090d8] font-normal  cursor-pointer rounded-full text-white text-xl max-w-fit px-8 py-4 max-h-fit">
+          Read More
+        </div> </div> 
       <div
         className='w-1/2 rounded-2xl bg-center bg-cover duration-500'
       >
-        <img src="/assets/about.jpg" alt="Logo" className="h-full  cursor-pointer" />
+        <img src="/assets/about.jpg" alt="Logo" className="h-full" />
       </div>
     </div>
   )
