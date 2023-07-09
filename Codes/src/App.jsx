@@ -6,15 +6,18 @@ import { useEffect } from "react";
 import Footer from "./components/Footer";
 
 const App = () => {
-  
+ 
   return (
     <div>
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutus" element={<h1>Hi</h1>} />
+          <Route path="/aboutus" element={<h1>Hi</h1>} />
+          <Route path="/aboutus" element={<h1>Hi</h1>} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );

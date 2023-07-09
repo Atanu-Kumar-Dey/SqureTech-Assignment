@@ -1,0 +1,4 @@
+.glow:hover {
+    color: #6295d9;
+    text-shadow: 0 0 10px #000001, 0 0 10px #7ca9e4, 0 0 10px #7ca9e4, 0 0 10px #7ca9e4;
+}

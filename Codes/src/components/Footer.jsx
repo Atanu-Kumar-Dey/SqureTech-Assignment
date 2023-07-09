@@ -49,16 +49,16 @@ const Footer = () => {
           <div className="w-1/2 my-20 flex justify-center items-start space-x-20 text-left">
             {data.map((item, index) => (
               <div className="flex flex-col" key={index}>
-                <span className=" mb-5">{item.name}</span>
+                <span className="text-xl mb-5">{item.name}</span>
                 {!item.lastRow &&
                   item.item.map((itemName) => (
-                    <span className="text-base mb-3">{itemName}</span>
+                    <span className="text-base mb-3 cursor-pointer delay-150 hover:text-[#6090d8]">{itemName}</span>
                   ))}
                 <div className="flex space-x-4">
                   
                 {item.lastRow &&
                   item.item.map((itemName) => (
-                    <span className="text-base mb-3">{itemName}</span>
+                    <span className="text-base mb-3 cursor-pointer delay-150 hover:text-[#6090d8]">{itemName}</span>
                   ))}
                 </div>
               </div>
