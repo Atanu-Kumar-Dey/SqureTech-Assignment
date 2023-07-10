@@ -48,7 +48,7 @@ const CareersMenu = () => {
           <hr />
         </div>
       </div>
-      <div className=" my-10  grid grid-cols-4 gap-6">
+      <div className=" my-10  grid grid-cols-4 gap-4">
       {items1.map(item => (
         <div key={item.id}>
          <span className="cursor-pointer glow"> {item.name}</span>
@@ -64,7 +64,7 @@ const CareersMenu = () => {
           <hr />
         </div>
       </div>
-      <div className=" my-10  grid grid-cols-5 gap-6">
+      <div className=" my-10  grid grid-cols-5 gap-4">
       {items2.map(item => (
         <div key={item.id}>
          <span className="cursor-pointer glow"> {item.name}</span>

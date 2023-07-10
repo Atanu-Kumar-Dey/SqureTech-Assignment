@@ -71,7 +71,7 @@ const NavBar = () => {
                     onMouseEnter={()=>handleMouseEnter(item)}
                   >
                     {item}
-                    <div className="bg-transparent  group-hover:bg-[#6090d8] h-[4px] rounded-full delay-100 ease-in-out w-2/3 "></div>
+                    <div className="bg-transparent  group-hover:bg-[#6090d8] h-[4px] rounded-full delay-100 ease-in-out w-1/2 "></div>
                     {}
                   </div>
                 ))}
