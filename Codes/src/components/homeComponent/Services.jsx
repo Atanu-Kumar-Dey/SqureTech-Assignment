@@ -2,6 +2,8 @@ import React from "react";
 import ServiceCards from "./ServiceCards";
 
 const Services = () => {
+  const data = ["assets/cards1.jpg", "assets/cards2.jpg", "/assets/cards3.jpg"];
+
   return (
     <div className="w-full my-20 flex flex-col justify-center items-center">
       <div className="flex justify-center items-center text-[#cccccc] font-semibold text-[24px] uppercase">
@@ -12,11 +14,10 @@ const Services = () => {
         Lorem ipsum dolor sit amet.
       </span>
       <div className="my-5 flex w-[95%] mx-auto justify-center items-center space-x-6">
-        <ServiceCards />
-        <div className="mt-20">
-          <ServiceCards />
-        </div>
-        <ServiceCards />
+        {data.map((item, index) => (
+         
+          <ServiceCards url={item}  key={index} />
+        ))}
       </div>
       <div className="w-full flex justify-center items-center mt-10">
         <button

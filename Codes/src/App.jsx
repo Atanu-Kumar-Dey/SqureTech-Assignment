@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import BusinessPage from "./pages/BusinessPage";
+import Careers from "./pages/Careers";
 
 const App = () => {
  
@@ -17,7 +18,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<About/>} />
           <Route path="/business" element={<BusinessPage/>} />
-          <Route path="/aboutus" element={<h1>Hi</h1>} />
+          <Route path="/careers" element={<Careers/>} />
         </Routes>
         <Footer />
       </Router>

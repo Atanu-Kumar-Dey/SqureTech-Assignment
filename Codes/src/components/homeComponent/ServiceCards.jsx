@@ -1,11 +1,11 @@
 import React from "react";
 
-const ServiceCards = () => {
+const ServiceCards = ({url}) => {
   return (
     <div class="w-full cursor-pointer max-w-sm bg-white border border-gray-200   dark:bg-gray-800 shadow-xl">
       <img
         class="p-2 rounded-t-lg"
-        src="/assets/cards1.jpg"
+        src={url}
         alt="product image"
       />
 
