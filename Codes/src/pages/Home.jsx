@@ -6,13 +6,13 @@ import Services from "../components/homeComponent/Services";
 import Insights from "../components/homeComponent/Insights";
 import Industries from "../components/homeComponent/Industries";
 import Testimonoals from "../components/homeComponent/Testimonoals";
-import Navbar from "../components/homeComponent/carousel/Carousel";
+import Navbar from "../components/carousel/Carousel";
 
 const Home = () => {
   return (
     <div>
-      {/* <Carousel /> */}
-        <Navbar/>
+      <Carousel />
+        {/* <Navbar/> */}
       <div className="">
         <TrustedBy/>
         <About/>

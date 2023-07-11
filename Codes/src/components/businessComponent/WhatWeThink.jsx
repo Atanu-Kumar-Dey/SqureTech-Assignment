@@ -11,7 +11,7 @@ const WhatWeThink = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center py-10">
       <span className="text-[44px] font-extrabold tracking-wide">
-        Core Value of SquareTech
+        What We Think
       </span>
       <p className="w-1/2 mb-5 text-center text-base text-[#999999]">
         Lorem ipsum dolor sit amet. Quo itaque galisum vel molestias expedita ut
